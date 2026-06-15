@@ -8,6 +8,7 @@
     <link href="https://googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/form-scripts.js" defer></script>
 </head>
 
 <body>
@@ -57,7 +58,25 @@
         </section>
 
         <section id="contact" class="landing-section">
-            <h2>Contacto</h2>
+            <h2>Contáctanos</h2>
+                <form class="formulario" id="contactForm">
+                    <div class="campo-formulario">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="correo">Email</label>
+                        <input type="email" id="correo" name="correo" placeholder="tu@email.com">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar</button>
+                </form>
         </section>
     </main>
 
