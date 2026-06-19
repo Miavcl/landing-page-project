@@ -111,7 +111,20 @@ html {
 #features { background-color: #fafafa; }
 #levels { background-color: #f1f1f1; }
 #experiences { background-color: #fafafa; }
-#contact { background-color: #ffffff; }
+#contact {
+    background: #FFD600;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #000;
+}
+
 
 .landing-section h2 {
     font-size: 32px;
@@ -224,3 +237,184 @@ html {
     background-position: center;
 }
 
+
+.formulario {
+    width: 43%;
+    max-width: 1000px;
+    min-width: 320px;
+
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding: 45px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        width: 90%;
+        padding: 25px;
+    }
+
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+}
+.campo-formulario {
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 10px;
+    color: #1A237E;
+    font-size: 1.2rem;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    background: #fafafa;
+    outline: none;
+}
+
+.campo-formulario input:focus,
+.campo-formulario textarea:focus {
+    border-color: #1A237E;
+}
+
+.campo-formulario textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    background: #1A237E;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    opacity: 0.9;
+}
+
+.landing-section {
+    margin: auto;
+    text-align: center;
+    background-color: #F9FAFB;
+}
+
+.landing-section .boxes{
+    background-color: #F9FAFB;
+    padding: 60px 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.landing-section .boxes .h4{
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.landing-section .boxes .box{
+    background-color: #ffffff;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 20px;
+    margin: auto 20px;
+}
+
+#experiences {
+    text-align: center;
+    padding: 80px 60px;
+    background-color: #f5f5f5;
+}
+
+.experiencias-subtitulo {
+    color: #666;
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+}
+
+.experiencias-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 50px;
+    width: 650px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.card-icono {
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 160px;
+    align-items: center;
+}
+
+.card-icono-azul {
+    background-color: #1e2d7d;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card-icono-amarillo {
+    background-color: #f5c200;
+    width: 100%;
+    border-radius: 12px;
+}
+.card h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #1a1a2e;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.card ul li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 24px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 2.5;
+}
+
+.card ul li::before {
+    content: "";
+    min-width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #FFD600;
+    display: inline-block;
+}
