@@ -139,6 +139,119 @@ html {
     font-size: 14px;
 }
 
+/* 
+    Front page
+*/
+
+#hero {
+    min-height: 100vh;
+
+    background-color: #25318f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.cont-portada-centrado {
+    max-width: 850px;
+    margin-top: 80px;
+}
+
+.portada-logo {
+    margin-bottom: 25px;
+}
+
+.portada-logo img {
+    width: 90px;
+    height: auto;
+}
+
+.cont-portada-centrado h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cont-portada-centrado h2 {
+    font-size: 2rem;
+    color: #FFD600;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.cont-portada-centrado p {
+    color: #e8e8e8;
+    font-size: 0.95rem;
+    line-height: 2;
+    margin-bottom: 45px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portada-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-comenzar-amarillo {
+    background-color: #FFD600;
+    color: #1e2d7d;
+
+    text-decoration: none;
+
+    padding: 18px 40px;
+
+    border-radius: 12px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-comenzar-amarillo:hover {
+    background-color: #e6c100;
+}
+
+.btn-docente {
+    background-color: transparent;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 18px 40px;
+
+    border: 1px solid rgba(255,255,255,0.4);
+
+    border-radius: 12px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn-docente:hover {
+    background-color: rgba(255,255,255,0.08);
+}
+
+.cont-portada-centrado h1 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.portada-logo img {
+    width: 75px;
+}
 
 /* 
     LEVELS SECTION
